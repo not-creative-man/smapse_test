@@ -1,0 +1,43 @@
+.header__navbar-link {
+    color: #737373;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    display: inline-block;
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    margin: 33px 21px 38px auto;
+  }
+
+.header__navbar-link::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: #737373;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  }
+
+.header__navbar-link:hover::after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.header__navbar-link:active{
+    color:#605f5f;
+}
+
+.navbar>.header__navbar-link:first-child {
+    margin-left: 83px;
+}
+
+.navbar>.header__navbar-link:last-child {
+    margin-right: 240px;
+}

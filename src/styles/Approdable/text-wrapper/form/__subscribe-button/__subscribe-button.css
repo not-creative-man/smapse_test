@@ -1,0 +1,9 @@
+.approdable__subscribe-button {
+    cursor: pointer;
+    background: #96BB7C;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 400;
+    height: 58px;
+    width: 117px;
+}

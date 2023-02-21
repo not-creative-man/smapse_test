@@ -1,0 +1,40 @@
+.link-button {
+    text-decoration: none;
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #96BB7C;
+    text-decoration: none;
+    margin-right: 45px;
+    display: inline-block;
+}
+
+.link-button::after { 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    background: none repeat scroll 0 0 transparent;
+    height: 2px;
+    width: 0;
+    background: #85b762;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  }
+
+.link-button:hover::after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+.link-button:hover{
+    color: #85b762;
+}
+
+.link-button:active{
+    color: #6fad42;
+}

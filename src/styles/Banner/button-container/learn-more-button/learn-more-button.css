@@ -1,0 +1,16 @@
+.banner__learn-more-button {
+    outline: 1px solid #96BB7C;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0px;
+}
+
+.banner__learn-more-button:hover {
+    outline: 2px solid #85b762;
+    color: #85b762 !important;
+}
+
+.banner__learn-more-button:active {
+    outline: 2px solid #6fad42;
+    color: #6fad42 !important;
+}

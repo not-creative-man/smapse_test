@@ -1,0 +1,7 @@
+.banner__cards{
+    display: flex;
+    flex-direction: row;
+    margin: -47px auto 76px;
+    gap: 30px;
+    justify-content: center;
+}

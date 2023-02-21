@@ -1,0 +1,7 @@
+.banner__image-wrapper {
+    border-bottom-left-radius: 150px;
+    width: 703px;
+    height: 543.79px;
+    background-color: #F7FAFF;
+    margin-top: calc(var(--header-height)*(-1));
+}

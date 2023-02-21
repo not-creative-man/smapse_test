@@ -1,0 +1,8 @@
+.banner__container{
+    display: flex;
+    width: 1218px;
+    height: 615px;
+    background: #EFF8ED;
+    margin: 0;
+    border: 1px solid #EFF8ED;
+}
